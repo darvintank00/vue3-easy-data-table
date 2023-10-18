@@ -81,7 +81,7 @@ export default {
   },
   loading: {
     type: Boolean,
-    deault: false,
+    default: false,
   },
   rowsPerPage: {
     type: Number,
@@ -194,5 +194,9 @@ export default {
   showIndexSymbol: {
     type: String,
     default: '#',
+  },
+  preventContextMenuRow: {
+    type: Boolean,
+    default: true
   }
 };
