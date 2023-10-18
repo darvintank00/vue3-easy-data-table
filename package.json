@@ -37,7 +37,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.17.21",
     "vue": "^3.2.45",
     "vuedraggable": "^4.1.0"

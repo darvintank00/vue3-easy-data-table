@@ -12,7 +12,7 @@ export default defineConfig({
       fileName: (format) => `vue3-easy-data-table.${format}.js`,
     },
     rollupOptions: {
-      external: ['vue'],
+      // external: ['vue'],
       output: {
         globals: {
           vue: 'Vue',
